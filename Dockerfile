@@ -12,6 +12,8 @@
   RUN pip install --no-cache-dir -U pystan
   COPY requirements.txt .
   RUN pip install --no-cache-dir -U -r  requirements.txt
-  COPY AAPL.joblib,GOOG.joblib,MSFT.joblib,main.py,model.py .
-  CMD src/ .
+  COPY src/ .
+  CMD ["uvicorn","main:app","--host","0.0.0.0","--port","8000"]
+  
+
   
