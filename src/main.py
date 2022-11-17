@@ -1,3 +1,10 @@
+from fastapi import FastAPI
+app = FastAPI()
+
+@app.get("/ping")
+def pong():
+    return {"ping": "pong!"}
+
 from fastapi import FastAPI, Query, HTTPException
 from pydantic import BaseModel
 from model import predict, convert
