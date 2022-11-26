@@ -1,0 +1,12 @@
+1) What does it mean to create a Docker image and why do we use Docker images?
+  Docker images are a fast, lightweight, and efficient way to send executable apps that minimizes end-user uploads of software and version compatibility issues.
+
+2) Please explain what is the difference from a Container vs a Virtual Machine?
+  A container is a stand-alone thing that packages up code, dependencies, and virtualizes operating system instead of hardware. 
+  A virtual machine turns one server into many servers.
+
+3) What are 5 examples of container orchestration tools (please list tools)?
+  According to https://docs.docker.com/get-started/orchestration/ examples of container orchestration include Kubernetes, Swarm, Nomad, AWS FarGate, and Azure Container Instance.
+
+4) How does a Docker image differ from a Docker container?
+  Container images become containers at execution. 
