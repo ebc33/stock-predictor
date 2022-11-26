@@ -1,0 +1,21 @@
+1) How does the Prophet Algorithm differ from an LSTM?
+   According to https://neptune.ai/blog/arima-vs-prophet-vs-lstm Prophet algorithm is more similar to time series 
+   because there is a stationary component, seasonality term identifying temporary patterns, holiday factor, and error in this algorithm. 
+   This is different compared to Long-Short-Term-Memory models in which important features are selected and remembered.
+   
+   Why does an LSTM have poor performance against ARIMA and Profit for Time Series?
+   According to https://neptune.ai/blog/arima-vs-prophet-vs-lstm LSTM is not as accurate in stock price prediction because it overfits.
+   ARIMA and Prophet are probably better at accurately predicting stock prices or anything that varies by time.
+   This might be because they incorporate time series-type methods instead of a model that selectively identifies relevant features.
+   LSTM might be better at analyzing audio files or interpreting languages instead of predicting volatility of stock prices.
+
+2) What is exponential smoothing and why is it used in Time Series Forecasting?
+    Exponential smoothing in time series is when a recurrent moving average is taken to 'smooth' volatility in a given time period.
+
+3) What is stationarity? What is seasonality? Why Is Stationarity Important in Time Series Forecasting?
+    Stationarity is the pattern without seaonality. 
+    Stationarity is the prediction in absence of seaonal variation. 
+    It is usually the main signal researchers are interested in identifying.
+
+4) How is seasonality different from cyclicality? Fill in the blanks:
+    Seaonality is predictable, whereas cyclicality is not.
